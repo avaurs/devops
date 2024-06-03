@@ -1,0 +1,8 @@
+# Spécifie l'image Docker à utiliser pour l'espace de travail.
+image:
+  file: .gitpod.Dockerfile
+
+# Définit les tâches à exécuter au démarrage de l'espace de travail.
+tasks:
+  # Rend tous les fichiers .sh exécutables dans tous les sous-répertoires du répertoire actuel.
+  - init: chmod +x ./*/*.sh
