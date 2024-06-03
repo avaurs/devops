@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Variable stockant le chemin racine qui fonctionnera uniquement sur mon PC
-root_dir="/home/arthur/Documents/Cours/sysops/travailGit/ResultatEx1"
+root_dir="/home/avaurs/Documents/devops"
 
 ## Liste contenant chaque dossier a créer
 directories=(
