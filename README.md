@@ -20,9 +20,9 @@ Créé par Amalric Vaurs
 # Contribuer au projet
 
 1. 'Forker' le dépôt Git
-2. Créer une nouvelle 'Branch' : ```git checkout -b nom-de-la-nouvelle-branche```
-3. Effectuer un 'Commit' : ```git commit -m 'description du commit'```
-4. 'Push' la branche : ```git push origin nom-de-la-nouvelle-branche```
+2. Créer une nouvelle 'Branch' ```git checkout -b nom-de-la-nouvelle-branche```
+3. Effectuer un 'Commit' ```git commit -m 'description du commit'```
+4. 'Push' la branche ```git push origin nom-de-la-nouvelle-branche```
 5. Ouvrir une 'Pull Request'
 
 # Exercice 1
@@ -74,7 +74,7 @@ Exécuter ```exercice1bis.bash``` pour effectuer des modifications sur les fichi
 13 Créer un lien symbolique "perso_votrenom" dont la cible est "/home/name/personnages"
 14 Sauvegarder l'arborescence de /home/fanboy/personnages dans "temp.txt"
 15 Supprimer les occurrences du keyword "directories" de "temp.txt" et sauvegarder le résultat dans "result.txt"
-16 Sauvegarder les 250 dernières lignes de l'historique dans myhistory tout en supprimant les lignes contenant la commande "cd"
+16 Sauvegarder les 250 dernières lignes de l'historique de "myhistory" tout en supprimant les lignes contenant la commande "cd"
 ```
 
 # Exercice 2 Bis
