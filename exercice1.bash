@@ -1,9 +1,7 @@
 #!/bin/bash
 
-## Variable stockant le chemin racine qui fonctionnera uniquement sur mon PC
 root_dir="/home/avaurs/Documents/devops"
 
-## Liste contenant chaque dossier a créer
 directories=(
     "$root_dir/personnages/mascottes"
     "$root_dir/personnages/super heros/femmes/cape"
@@ -16,7 +14,6 @@ directories=(
     "$root_dir/personnages/super heros/femmes/sans cape/superwoman"
 )
 
-# Liste contenant chaque fichier a créer
 files=(
     "$root_dir/personnages/mascottes/beastie"
     "$root_dir/personnages/mascottes/bibendum"
@@ -31,12 +28,10 @@ files=(
     "$root_dir/personnages/super heros/hommes/sans cape/spiderman"
 )
 
-# Boucle qui crée les dossier qui sont dans la liste directories et leur donne les droits 775 soit propriétaire= Tous les droits, Groupe= Tous les droits et les autres= Lire et executé. 
 for dir in "${directories[@]}"; do
     mkdir -m 775 -p "$dir"
 done
 
-# Crée les fichiers qui sont dans la liste files et donne les droits 664
 for file in "${files[@]}"; do
     if [[ -n "$file" ]]; then
         echo "Creating file: $file" 
