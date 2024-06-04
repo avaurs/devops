@@ -29,9 +29,9 @@ cp -r personnages /home/$name/
 sudo ln -sf /home/$name/personnages /home/$name/perso_$name
 
 sudo apt install -y tree
-sudo tree /home/fanboy/personnages > 14.txt
+sudo tree /home/fanboy/personnages > temp.txt
 
-grep -v "directories" 14.txt > 15.txt
+grep -v "directories" temp.txt > result.txt
 
 history_file_path=$HISTFILE
 if [[ -f $history_file_path ]]; then
